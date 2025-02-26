@@ -1,0 +1,30 @@
+{
+    "name": "aimating/auth",
+    "description": "hyperf framework Oauth2",
+    "license": "mit",
+    "version": "1.0.0",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Aimating\\Auth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "worf tan",
+            "email": "worf.tan@silksoftware.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.1.0",
+        "hyperf/di": "^3.1",
+        "aimating/oauth2": "^1.0",
+        "hyperf/utils": "3.1.0"
+    },
+    "extra": {
+        "hyperf": {
+            "config": "Aimating\\Auth\\ConfigProvider"
+        }
+    }
+}
