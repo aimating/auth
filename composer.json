@@ -28,8 +28,7 @@
     "require": {
         "php": ">=8.1.0",
         "hyperf/di": "^3.1",
-        "aimating/oauth2": "^1.0",
-        "hyperf/utils": "3.1.0"
+        "aimating/oauth2": "^1.0"
     },
     "extra": {
         "hyperf": {
